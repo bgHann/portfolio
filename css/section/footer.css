@@ -1,0 +1,28 @@
+footer {
+  padding: 36px 0;
+  text-align: center;
+  font-size: 15px;
+  font-size: var(--caption-font-size);
+  line-height: var(--caption-line-height);
+  color: var(--n-600);
+  background: none; /* ❌ không nền */
+  box-shadow: none; /* ❌ không bóng */
+  border: none; /* ❌ không viền */
+  transition: color 0.3s ease;
+}
+
+footer p {
+  margin: 6px 0;
+  letter-spacing: 0.3px;
+}
+
+footer a {
+  color: var(--n-600);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #005999;
+}

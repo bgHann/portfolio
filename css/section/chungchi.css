@@ -1,0 +1,17 @@
+.certificate__section {
+  background-color: var(--p-750);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0px;
+  & h2 {
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-line-height);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  & p {
+    color: var(--n-600);
+  }
+}

@@ -1,0 +1,57 @@
+@import "theme.css";
+
+@import "/css/section/about-me.css";
+@import "./section/hobbies.css";
+@import "./section/chungchi.css";
+@import "/css/section/footer.css";
+@import "/css/section/header.css";
+@import "/css/section/project.css";
+@import "/css/section/skills.css";
+@import "/css/section/languages.css";
+@import "./animation.css";
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+  letter-spacing: var(--p-letter-spacing);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1536px;
+  padding: 0 2rem;
+}
+.section__title {
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+  font-weight: bold;
+  color: var(--p-950);
+  text-transform: capitalize;
+}
+.section__description {
+  text-align: center;
+  max-width: 65ch;
+  color: var(--n-500);
+}
+a {
+  text-decoration: none;
+}
+.section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+body {
+  background: linear-gradient(120deg, #f0ffff, #fff0f5);
+  margin: 0 130px;
+}

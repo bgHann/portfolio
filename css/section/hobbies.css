@@ -1,0 +1,68 @@
+.hobby__section {
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid var(--p-750);
+  border-radius: 20px;
+  padding: 1em 2em;
+}
+.hobby__container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 10px 0; /* ẩn thanh cuộn */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  justify-content: space-around;
+}
+.hobby__container::-webkit-scrollbar {
+  display: none;
+}
+.hobby__item {
+  flex-shrink: 0;
+  width: 140px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 128, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hobby__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 128, 255, 0.3);
+} /* khung ảnh tròn */
+.item_header {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #0099ff;
+} /* ảnh tự fit */
+.item_header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+} /* chữ mô tả */
+.item_p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+.section__title {
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.p {
+  color: var(--n-600);
+}
